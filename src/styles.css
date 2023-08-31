@@ -1,0 +1,138 @@
+body{
+    background-color: #F9F5EB;
+    line-height: 1.7;
+}
+
+.navbar{
+    background-color: #1E3163;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand, .nav-link, .active{
+    color: #F8F8F8 !important;
+}
+.navbar-brand{
+   
+    padding: 10px;
+  border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+.navbar-brand:hover{
+    background-color: #F8F8F8;
+    color: #1E3163 !important;
+}
+
+.main_text{
+    text-align: center;
+    padding: 40px;
+   border-radius: 5px;
+   margin-top: 100px;
+   margin-bottom: 70px;
+}
+
+
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #1E3163;
+}
+
+
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #1E3163;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    color: #1E3163;
+}
+.primary_link{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1E3163;
+    color: #F9F5EB;
+    width: 200px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.primary_link:hover{
+    background-color:#F9F5EB ;
+    color:  #1E3163;
+    border: solid 1px #1E3163 ;
+    border-radius: 5px;
+}
+
+.conteiner{
+  margin: 0 93px;
+}
+
+.secondary_link{
+    margin-top: 25px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9F5EB;
+    color: #1E3163;
+    border: solid 1px #1E3163 ;
+    border-radius: 5px;
+    width: 100px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.secondary_link:hover{
+    background-color:  #1E3163 ;
+    color: #F9F5EB;
+    
+}
+
+@media only screen and (max-width: 770px) {
+    .col{
+        text-align: center;
+    }
+}
+
+.photo{
+    position: relative;
+    left: 200px;
+}
+
+.projects_text{
+    font-family:'Poppins', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer {
+    margin: 60px 0;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+footer .email-link:hover{
+    color: #1E3163;
+}
+
+footer .social-links a{
+    color: #1E3163;
+    background-color: #F9F5EB;
+    margin: 0 20px;
+    font-size: 18px;
+    padding: 10px 14px;
+    border-radius: 50%;
+}
+
+.contact-box{
+    padding: 30px;
+}
