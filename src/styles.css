@@ -136,3 +136,8 @@ footer .social-links a{
 .contact-box{
     padding: 30px;
 }
+
+.link_to_project{
+    text-decoration: none;
+    background-color: #1E3163;
+}
