@@ -29,7 +29,9 @@ body{
    margin-bottom: 70px;
 }
 
-
+.header_works{
+    text-align: center;
+}
 
 h1{
     font-family: 'Playfair Display', serif;
